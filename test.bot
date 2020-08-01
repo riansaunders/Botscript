@@ -1,0 +1,4 @@
+foo = 'bar'
+
+# prints 'foo bar'
+println('foo: ' + foo)

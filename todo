@@ -1,0 +1,51 @@
+Source-code: .bot
+Compiled-code: .mw
+
+In future, deep integrated obfuscation. 
+	Runtimes will be tailored to the obfuscation. Runtime can also be merged to that specific
+	machine.
+	Whole opcodes and patterns can change randomly with no seed, because the runtime changed.
+	* Only works on compiled code.
+Language will be ported to C++ and C#. Syntax will NOT change. Write once and run literally anywhere
+		because the environments can be completely custom and add any number of functionality.
+
+` = global
+~ = give control, so that exit works
+@ = static, dont load with script
+{var} = " + var + "
+
+@pie = `math.pi()
+''
+
+				"/LBRACE RBRACE/0 FOR ?LPAREN:tidy @assignGrammar ?SEMICOLON:postop [WORD+PLUS\\0 2\\ PLUS\\1 2\\+WORD @assignGrammar @assignGrammar-chaining @assignGrammar+LPAREN]?postop=JACOB\\i RPAREN?tidy ?LBRACE:tidyB * RBRACE?tidyB"));
+{} for 
+
+[for x in range]
+*for x in range*
+LBRACE @forGrammar RBRACE
+
+script fibonacci:
+
+@fib24 = fibonacci_loop(24)
+
+out({fib24} + " " + {fibonacci_loop(rand(20))})
+// optional parenthesis 
+while {
+	num = rand(24)
+
+	if(num = 24)
+		break
+
+	out("Creating fibonacci sequence for {num}")
+	out(fibonacci_loop(num))
+
+}
+
+// Call upon different syntactic parsers for this method.
+//Python’s brace less If
+//Word syntax for <=
+[![~@PyIf, ~@LesserOrEqual]]
+@fibonnaci_loop = (num) {
+  if num lesor 1 return num
+  else return ~fibonacci_loop(num-1) + ~fibonacci_loop(num-2)
+}
