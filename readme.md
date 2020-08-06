@@ -21,6 +21,10 @@ Other:
         ```
         [![~@PyIf, ~@LesserOrEqual]]
         ``` 
+        This flag above a method (or any other block of code) for example would enable a separate dialect to be used for an if statement as well as a special operator
+        ```
+            if num lesor 1 return num
+        ```
 
 ## Basic Syntax
 ```
