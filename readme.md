@@ -1,7 +1,7 @@
 # Botscript
-This is a recovered backup of an old project inspired by [RuneScript](https://runescape.wiki/w/RuneScript). This project in its current state is compiled to 'bytecode' and then interpreted by a JVM based interpreter. Started in high school (2015) and left unfinished due to higher learning opportunities.
+This is a recovered backup of an old project inspired by [RuneScript](https://runescape.wiki/w/RuneScript). This project in its current state is compiled to 'bytecode' and then interpreted by a JVM based interpreter. Started in high school (2015) and left unfinished due to higher learning opportunities. As of now, it's slowly being recreated and refinished to share with the world.
 
-Features (discovered in this build)
+Features
 * Variables
     * Global
     * Scoped
