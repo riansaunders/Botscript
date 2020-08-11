@@ -22,6 +22,6 @@ public class GetVariableNodeConstruct implements NodeConstruct {
 
 	@Override
 	public Node construct(SyntacticParser parser) {
-		return new GetVariableNode(parser, parser.currentToken().val(), parser.prevNode().is(ExternalFlagNode.class));
+		return new GetVariableNode(parser, parser.currentToken().val(), parser.prevNode() != null && parser.prevNode().is(ExternalFlagNode.class));
 	}
 }

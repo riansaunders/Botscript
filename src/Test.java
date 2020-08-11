@@ -33,16 +33,4 @@ public class Test {
 		Script script = syntacticParser.parse(runtime);
 		runtime.run(script);
 	}
-
-	public static void main2(String... args) {
-		boolean[] tests = new boolean[10];
-		tests[0] = false;
-		tests[1] = false;
-		RepeatableBuffer<Character> buf = RepeatableBuffer.of("Rian N Saunders");
-		System.out.println(buf.current() + ", '" + buf.peek()+"'");
-		buf.next();
-		System.out.println("\t" + buf.peek() + ", '" + buf.peek(5)+"'");
-		System.out.println(new GrammarParser().parse(
-				"/LBRACE RBRACE/0 FOR ?LPAREN:tidy @assignGrammar ?SEMICOLON:postop [WORD+PLUS\\0 2\\ PLUS\\1 2\\+WORD @assignGrammar @assignGrammar-chaining @assignGrammar+LPAREN]?postop=JACOB\\i RPAREN?tidy ?LBRACE:tidyB * RBRACE?tidyB"));
-	}
 }

@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ce3a8e0-af0a-4d04-b1ca-2eba38c18168" name="Default Changelist" comment="" />
+    <list default="true" id="0ce3a8e0-af0a-4d04-b1ca-2eba38c18168" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bot/botscript/Watch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/botscript/build/SyntacticParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/botscript/build/SyntacticParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/botscript/build/node/GetVariableNodeConstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/botscript/build/node/GetVariableNodeConstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/botscript/lang/runtime/ScriptRuntime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/botscript/lang/runtime/ScriptRuntime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.bot" beforeDir="false" afterPath="$PROJECT_DIR$/test.bot" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,9 +34,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bot/botscript" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/bot/botscript" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Botscript Test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="botscript" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,7 +63,44 @@
       <option name="presentableId" value="Default" />
       <updated>1596233446579</updated>
       <workItem from="1596233448116" duration="30000" />
+      <workItem from="1597171010073" duration="2381000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bot" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1704" y="-182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597174388002">
+      <screen x="1280" y="-336" width="1920" height="985" />
+    </state>
+    <state x="1704" y="-182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/1280.-336.1920.985@1280.-336.1920.985" timestamp="1597174388002" />
+    <state x="1978" y="-90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597174176996">
+      <screen x="1280" y="-336" width="1920" height="985" />
+    </state>
+    <state x="1978" y="-90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777/1280.-336.1920.985@1280.-336.1920.985" timestamp="1597174176996" />
+    <state width="1878" height="266" key="GridCell.Tab.0.bottom" timestamp="1597176129267">
+      <screen x="1280" y="-336" width="1920" height="985" />
+    </state>
+    <state width="1878" height="266" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-336.1920.985@1280.-336.1920.985" timestamp="1597176129267" />
+    <state width="1878" height="266" key="GridCell.Tab.0.center" timestamp="1597176129266">
+      <screen x="1280" y="-336" width="1920" height="985" />
+    </state>
+    <state width="1878" height="266" key="GridCell.Tab.0.center/0.23.1280.777/1280.-336.1920.985@1280.-336.1920.985" timestamp="1597176129266" />
+    <state width="1878" height="266" key="GridCell.Tab.0.left" timestamp="1597176129266">
+      <screen x="1280" y="-336" width="1920" height="985" />
+    </state>
+    <state width="1878" height="266" key="GridCell.Tab.0.left/0.23.1280.777/1280.-336.1920.985@1280.-336.1920.985" timestamp="1597176129266" />
+    <state width="1878" height="266" key="GridCell.Tab.0.right" timestamp="1597176129267">
+      <screen x="1280" y="-336" width="1920" height="985" />
+    </state>
+    <state width="1878" height="266" key="GridCell.Tab.0.right/0.23.1280.777/1280.-336.1920.985@1280.-336.1920.985" timestamp="1597176129267" />
+    <state x="1905" y="-119" width="670" height="676" key="search.everywhere.popup" timestamp="1597174269746">
+      <screen x="1280" y="-336" width="1920" height="985" />
+    </state>
+    <state x="1905" y="-119" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/1280.-336.1920.985@1280.-336.1920.985" timestamp="1597174269746" />
   </component>
 </project>

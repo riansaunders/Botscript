@@ -13,13 +13,15 @@ import bot.botscript.Script;
  */
 public abstract class ScriptRuntime {
 
-	private Map<EventDefinition, EventRuntime> events = new HashMap<EventDefinition, EventRuntime>();
+	private final Map<EventDefinition, EventRuntime> events = new HashMap<EventDefinition, EventRuntime>();
 
 	protected void define(EventDefinition definition, EventRuntime runtime) {
 		events.put(definition, runtime);
 	}
 
 	public Object run(Script script) throws InvocationException {
+
+
 		return script;
 	}
 
